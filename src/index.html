@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/98.css"
+    >
+
+    <link rel="stylesheet" href="Modif/code.css">
+    <link rel="stylesheet" href="Modif/kbd.css">
+    <link rel="stylesheet" href="Fonts/fonts.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="window" style="width: 98%; height: 96%;" id="mainDiv">
+        <div class="title-bar">
+            <div class="title-bar-text" id="tile">98Edit</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <label for="filetypes">Filetype: </label>
+            <select id="filetypes">
+                <option>Python</option>
+                <option>C</option>
+                <option>C++</option>
+                <option>JavaScript</option>
+                <option>Java</option>
+            </select>
+            <label for="editing" id="labeledit">Browse...</label>
+            <input type="file" id="editing">
+        </div>
+        <div class="window-body" id="window-text">
+            <textarea id="text"></textarea>
+        </div>
+    </div>
+</body>
+</html>

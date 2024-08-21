@@ -1,0 +1,8 @@
+@font-face {
+    font-family: MSS;
+    src: url(./MS_Sans_Serif/ms-sans-serif-1.ttf);
+}
+
+* {
+    font-family: MSS;
+}
