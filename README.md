@@ -7,7 +7,7 @@ This Editor Uses the awesome [98.css](https://github.com/jdan/98.css) library
 1.I can't get the filename before i reupload the file im trying to edit
 
 # Where to try
-You can try 98Edit [Here](https://maybehawk1.github.io/98EditV1/)
+You can try 98Edit [Here](https://98editv1.pages.dev)
 
 # To-Do
 There is like...alot
