@@ -24,19 +24,21 @@
         </div>
         <div class="window-body">
             <label for="filetypes">Filetype: </label>
-            <select id="filetypes">
+            <select>
                 <option>Python</option>
                 <option>C</option>
                 <option>C++</option>
                 <option>JavaScript</option>
                 <option>Java</option>
             </select>
+            <button class="btn" id="saveBtn">Save</button>
             <label for="editing" id="labeledit">Browse...</label>
             <input type="file" id="editing">
         </div>
         <div class="window-body" id="window-text">
-            <textarea id="text"></textarea>
+            <textarea id="text" spellcheck="false"></textarea>
         </div>
-    </div>
+
+    <script src="/JS/fileread.js"></script>
 </body>
 </html>
